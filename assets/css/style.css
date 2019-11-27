@@ -4,15 +4,17 @@
 
 header {
     margin: 0;
-    color: #fafafa;
+    background-color: #a7bdbf;
 }
 
 .logo {
-    background: url("../images/balloon_bridge.jpg");
+    background: url("../images/logo.png");
     background-position: center;
+    margin-left: 25px;
+    margin-right: 25px;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
+    background-size: contain;
+    min-height: 180px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
