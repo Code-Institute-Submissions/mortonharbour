@@ -2,9 +2,35 @@
 
 @import url('https://fonts.googleapis.com/css?family=Suranna:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
+/*----------------------------------------------Colors*/
+
+/*off-white color: #fafafa
+olive color: #63757A
+light teal color: #a7bdbf*/
+
+
+.navbar-light .nav-item.active .nav-link {
+    color: #3f3f63;
+}
+
+#navbarDropdown {
+    color: #3f3f63;
+}
+
+.dropdown-menu {
+    background-color: #fafafa;           
+}
+
+.dropdown-item {
+    color: #3f3f63;                     
+}
+
+
+/*----------------------------------------------Header*/
+
 header {
     margin: 0;
-    background-color: #a7bdbf;
+    background-color: #a7bdbf;            
 }
 
 .logo {
@@ -20,3 +46,57 @@ header {
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+
+/*----------------------------------------------Header*/
+
+body p {
+    font-family: "Open Sans", sans-serif;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Suranna", sans-serif;
+}
+
+/*----------------------------------------------Navigation*/
+
+.navbar {
+    font-size: 1.25rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.dropdown-menu {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-item {
+    font-weight: 300;
+}
+
+/*----------------------------------------------Hover*/
+
+
+.navbar-light .nav-item.active .nav-link:hover {
+    text-decoration: none;
+    color:#e7edeb;
+}
+
+#navbarDropdown:hover {
+    color: #e7edeb;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #e7edeb;
+}
+
+
+/*----------------------------------------------Media Queries*/
+
+
