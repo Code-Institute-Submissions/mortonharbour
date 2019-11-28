@@ -83,6 +83,63 @@ h6 {
     border: none;
 }
 
+/*----------------------------------------------Footer*/
+
+footer {
+    margin: 0;
+    background-color: #8fc5cb;
+    min-height: 180px;
+}
+
+.social-media-icons {
+    color: #fafafa;
+    padding: 10px;
+    margin-left: 25px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-logo {
+    background: url("../images/footer-logo.png");
+    background-position: center;
+    padding: 15px 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height:100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.aphp-logo {
+    background: url("../images/aphp-logo.png");
+    background-position: center;
+    padding: 15px 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height:100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.nrpc-logo {
+    background: url("../images/nrpc-logo.png");
+    background-position: center;
+    padding: 15px 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height:100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
 /*----------------------------------------------Hover*/
 
 .navbar-light .nav-item.active .nav-link:hover {
@@ -99,59 +156,11 @@ h6 {
     color: #e7edeb;
 }
 
-/*----------------------------------------------Footer*/
-
-footer {
-    margin: 0;
-    background-color: #8fc5cb;
-    min-height: 180px;
+.social-meida-icons:hover {
+     text-decoration: none;
+     transition: all 1s ease-in-out;
+     color: #3f3f63;
 }
-
-.footer-logo {
-    background: url("../images/footer-logo.png");
-    background-position: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 180px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
-
-.aphp-logo {
-    background: url("../images/aphp-logo.png");
-    background-position: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 180px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
-
-.nrpc-logo {
-    background: url("../images/nrpc-logo.png");
-    background-position: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 180px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
-
 
 /*----------------------------------------------Media Queries*/
 
