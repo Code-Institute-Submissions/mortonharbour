@@ -8,7 +8,6 @@
 olive color: #63757A
 light teal color: #a7bdbf*/
 
-
 .navbar-light .nav-item.active .nav-link {
     color: #3f3f63;
 }
@@ -18,19 +17,20 @@ light teal color: #a7bdbf*/
 }
 
 .dropdown-menu {
-    background-color: #fafafa;           
+    background-color: #fafafa;
 }
 
 .dropdown-item {
-    color: #3f3f63;                     
+    color: #3f3f63;
 }
+
 
 
 /*----------------------------------------------Header*/
 
 header {
     margin: 0;
-    background-color: #a7bdbf;            
+    background-color: #a7bdbf;
 }
 
 .logo {
@@ -79,12 +79,15 @@ h6 {
     font-weight: 300;
 }
 
-/*----------------------------------------------Hover*/
+.navbar-toggler {
+    border: none;
+}
 
+/*----------------------------------------------Hover*/
 
 .navbar-light .nav-item.active .nav-link:hover {
     text-decoration: none;
-    color:#e7edeb;
+    color: #e7edeb;
 }
 
 #navbarDropdown:hover {
@@ -99,4 +102,42 @@ h6 {
 
 /*----------------------------------------------Media Queries*/
 
+/* Small devices (landscape phones, 576px and up) */
 
+@media (min-width: 0px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-toggler {
+        position: relative;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-toggler {
+        margin-top: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width:768px) { 
+    .navbar-toggler {
+        position: static;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    ...
+}
