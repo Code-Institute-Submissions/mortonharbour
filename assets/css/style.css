@@ -91,14 +91,9 @@ footer {
     min-height: 180px;
 }
 
-.social-media-icons {
+.social-media-icons li a i {
     color: #fafafa;
-    padding: 10px;
-    margin-left: 25px;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
+    padding: 15px;
 }
 
 .footer-logo {
@@ -108,6 +103,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     min-height:100px;
+    margin-bottom: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -121,6 +117,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     min-height:100px;
+    margin-bottom: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -134,6 +131,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     min-height:100px;
+    margin-bottom: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -156,9 +154,8 @@ footer {
     color: #e7edeb;
 }
 
-.social-meida-icons:hover {
-     text-decoration: none;
-     transition: all 1s ease-in-out;
+.social-media-icons li a i:hover {
+    text-decoration: none;
      color: #3f3f63;
 }
 
