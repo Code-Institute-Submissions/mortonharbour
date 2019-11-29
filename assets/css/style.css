@@ -47,21 +47,6 @@ header {
     -o-transition: all .5s ease-in-out;
 }
 
-/*--------------------------------------------------------Body*/
-
-body p {
-    font-family: "Open Sans", sans-serif;
-}
-
-body h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Suranna", sans-serif;
-}
-
 /*----------------------------------------------Navigation*/
 
 .navbar {
@@ -81,6 +66,60 @@ h6 {
 
 .navbar-toggler {
     border: none;
+}
+
+/*--------------------------------------------------------Body*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Suranna", sans-serif;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+}
+
+.main-content-text {
+    padding: 25px;
+}
+
+
+
+/*--------------------------------------------------------Form*/
+
+.newsletter-signup {
+    min-height: 75px;
+    text-align: center;
+    padding: 30px;
+    background-color: #A0B3B2;
+    color: #3f3f63;
+}
+
+#first-name {
+    margin: 5px;
+    text-align: center;
+}
+
+#last-name {
+    margin: 5px;
+    text-align: center;
+}
+
+#email-address {
+    margin: 5px;
+    text-align: center;
+}
+
+#submit-button {
+    margin: 5px;
+    background-color: #3f3f63;
+    border-color: #6c757d;
+    color: #fafafa;
 }
 
 /*----------------------------------------------Footer*/
@@ -156,6 +195,17 @@ footer {
 }
 
 /*----------------------------------------------Hover*/
+
+#submit-button:hover {
+    background-color: #e7edeb;
+    border-color: #fafafa;
+    color: #3f3f63;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
 
 .navbar-light .nav-item.active .nav-link:hover {
     text-decoration: none;
