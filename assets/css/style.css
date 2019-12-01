@@ -1,6 +1,6 @@
 /*----------------------------------------------Fonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Suranna:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
 /*----------------------------------------------Colors*/
 
@@ -76,13 +76,21 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Suranna", sans-serif;
+    font-family: "Lora", sans-serif;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     text-align: justify;
     background-color: #fcfcfc;
+}
+
+.index-first-section {
+    padding-right: 25px;
+}
+
+.index-second-section {
+    padding-top: 15px;
 }
 
 .main-content-text {
@@ -95,6 +103,39 @@ body {
 
 .privacy-policy-links {
     color: #3f3f63;
+}
+
+.website-links {
+    color: #8fc5cb;
+}
+
+.img-fluid {
+     padding: 10px;   
+}
+
+.quote-icons {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.card-deck {
+    padding: 15px;
+}
+
+.testimonial-cards-olive {
+    background-color: #A0B3B2;
+    color: #3f3f63;
+    border: none;
+}
+
+.testimonial-cards-rose {
+    background-color: #A08B92;
+    color: #3f3f63;
+    border: none;
+}
+
+.caption-text {
+    padding-top: 25px;
 }
 
 /*--------------------------------------------------------Form*/
@@ -265,6 +306,19 @@ footer {
 .privacy-policy-links:hover {
     text-decoration: none;
     color: #8fc5cb;
+}
+
+.website-links:hover {
+    text-decoration: none;
+    color: #3f3f63;
+}
+
+.img-fluid:hover {
+    filter: grayscale(75%);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
 }
 
 /*----------------------------------------------Media Queries*/
