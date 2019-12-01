@@ -82,13 +82,20 @@ h6 {
 body {
     font-family: "Open Sans", sans-serif;
     text-align: justify;
+    background-color: #fcfcfc;
 }
 
 .main-content-text {
     padding: 25px;
 }
 
+#privacy-policy-wording {
+    margin: 25px;
+}
 
+.privacy-policy-links {
+    color: #3f3f63;
+}
 
 /*--------------------------------------------------------Form*/
 
@@ -194,6 +201,25 @@ footer {
     -o-transition: all .5s ease-in-out;
 }
 
+.privacy-policy a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #fafafa;
+}
+
+.privacy-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1.5px solid #a7bdbf;
+    margin: 10px;
+}
+
+.privacy-data {
+    border: 1.5px solid #a7bdbf;
+    padding: 10px 5px;
+    text-align: center;
+}
+
 /*----------------------------------------------Hover*/
 
 #submit-button:hover {
@@ -231,7 +257,15 @@ footer {
     color: #3f3f63;
 }
 
+.privacy-policy a:hover {
+    text-decoration: none;
+    color: #3f3f63;
+}
 
+.privacy-policy-links:hover {
+    text-decoration: none;
+    color: #8fc5cb;
+}
 
 /*----------------------------------------------Media Queries*/
 
