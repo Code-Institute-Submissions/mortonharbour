@@ -81,7 +81,6 @@ h6 {
 
 body {
     font-family: "Open Sans", sans-serif;
-    text-align: justify;
     background-color: #fcfcfc;
 }
 
@@ -136,6 +135,25 @@ body {
 
 .caption-text {
     padding-top: 25px;
+}
+
+.card-magda {
+    color: #3f3f63;
+    background-color: #F5F6F2;
+}
+
+.card-christian {
+    color: #3f3f63;
+    background-color: #F1F0F5;
+}
+
+.card-links {
+    color: #3f3f63;
+}
+
+.why-us-bullets {
+    min-height: 25px;
+    padding-top: 15px;
 }
 
 /*--------------------------------------------------------Form*/
@@ -315,15 +333,21 @@ footer {
 
 .img-fluid:hover {
     filter: grayscale(75%);
+    cursor: pointer;
     transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
 }
 
+.card-links:hover {
+    text-decoration: none;
+    color: #8fc5cb;
+}
+
 /*----------------------------------------------Media Queries*/
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (under 576px */
 
 @media (min-width: 0px) {
     .navbar-nav {
@@ -334,12 +358,18 @@ footer {
         left: 50%;
         transform: translatex(-50%);
     }
+    body {
+        text-align: left;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .navbar-toggler {
         margin-top: 15px;
+    }
+    body {
+        text-align: left;
     }
 }
 
@@ -349,16 +379,9 @@ footer {
     .navbar-toggler {
         position: static;
     }
+    body {
+        text-align: justify;
+    }
 }
 
-/* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
-    ...
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-    ...
-}
