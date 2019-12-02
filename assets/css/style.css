@@ -176,7 +176,20 @@ body {
     background-color: #F1F0F5;
 }
 
+.psychotherapy-call-out-section {
+    background-color: #F1F0F5;
+    padding: 25px;
+}
 
+.psychotherapy-call-out-image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
+}
 
 /*--------------------------------------------------------Form*/
 
