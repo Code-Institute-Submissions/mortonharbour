@@ -70,31 +70,45 @@ header {
 
 /*--------------------------------------------------------Body*/
 
+html {
+    font-size: 10px;
+    line-height: 1.5em;
+}
+
 h1,
-h2,
+h2 {
+    font-family: "Lora", sans-serif;
+    margin-bottom: 0.5em;
+}
+
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lora", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0.5em;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     background-color: #fcfcfc;
+    color: #3f3f63;
 }
 
-.index-first-section {
-    padding-right: 25px;
+.carousel-display {
+    visibility: hidden;
+    display: none;
 }
 
-.index-second-section {
-    padding-top: 15px;
+.hope-slide {
+    visibility: visible;
+    display: inline;
 }
 
 .main-content-text {
     padding: 25px;
 }
+
 
 #privacy-policy-wording {
     margin: 25px;
@@ -109,7 +123,7 @@ body {
 }
 
 .img-fluid {
-     padding: 10px;   
+    padding: 10px;
 }
 
 .quote-icons {
@@ -137,22 +151,8 @@ body {
     padding-top: 25px;
 }
 
-.card-magda {
-    color: #3f3f63;
-    background-color: #F5F6F2;
-}
-
-.card-christian {
-    color: #3f3f63;
-    background-color: #F1F0F5;
-}
-
 .card-outer {
     padding: 0;
-}
-
-.card-inner-padding {
-    padding: 25px;
 }
 
 .card-links {
@@ -176,12 +176,18 @@ body {
     background-color: #F1F0F5;
 }
 
-.psychotherapy-call-out-section {
+.therapy-call-out-section {
     background-color: #F1F0F5;
     padding: 25px;
 }
 
-.psychotherapy-call-out-image {
+.therapy-call-out-image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.hypnotherapy-call-out-image {
     max-width: 100%;
     height: auto;
     vertical-align: top;
@@ -189,6 +195,14 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.list-symptoms {
+    background-color: transparent;
+    border: none;
+    line-height: 1.75em;
+    list-style-position: inside;
+    text-indent: -1em;
 }
 
 /*--------------------------------------------------------Form*/
@@ -200,6 +214,7 @@ ul {
     background-color: #F1F0F5;
     color: #3f3f63;
 }
+
 
 #first-name {
     margin: 5px;
@@ -221,6 +236,42 @@ ul {
     background-color: #3f3f63;
     border-color: #6c757d;
     color: #fafafa;
+}
+
+[data-toggle~="collapse"] {
+    cursor: pointer;
+}
+
+.contact-us-form {
+    background: linear-gradient(#F1F0F5, #F1F0F5, #8fc5cb, #F1F0F5);
+    min-height: 75px;
+    text-align: center;
+    padding: 30px;
+    color: #3f3f63;
+}
+
+#name-contact {
+    margin: 5px;
+    text-align: center;
+    width: 75%;
+}
+
+#phone-number {
+    margin: 5px;
+    text-align: center;
+    width: 75%;
+}
+
+#your-message {
+    margin: 5px;
+    text-align: center;
+    width: 75%;
+}
+
+#email-address-contact {
+    margin: 5px;
+    text-align: center;
+    width: 75%;
 }
 
 /*----------------------------------------------Footer*/
@@ -259,7 +310,7 @@ footer {
     padding: 15px 25px;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height:100px;
+    min-height: 100px;
     margin-bottom: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -273,7 +324,7 @@ footer {
     padding: 15px 25px;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height:100px;
+    min-height: 100px;
     margin-bottom: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -287,7 +338,7 @@ footer {
     padding: 15px 25px;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height:100px;
+    min-height: 100px;
     margin-bottom: 10px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -381,20 +432,23 @@ footer {
 }
 
 .hvr-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
 }
-.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
-  box-shadow: 0 10px 10px -10px rgba(143, 197, 203, 0.5);
-  cursor: pointer;
-  color: #3f3f63;
+
+.hvr-shadow:hover,
+.hvr-shadow:focus,
+.hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(143, 197, 203, 0.5);
+    cursor: pointer;
+    color: #3f3f63;
 }
 
 
@@ -417,6 +471,7 @@ footer {
 }
 
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
     .navbar-toggler {
         margin-top: 15px;
@@ -428,13 +483,39 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width:768px) { 
+
+@media (min-width:768px) {
     .navbar-toggler {
         position: static;
     }
     body {
         text-align: justify;
     }
+    .carousel-display {
+        visibility: visible;
+        display: inline;
+    }
+    .hope-slide {
+    visibility: hidden;
+    display: none;
+    }
 }
 
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+    }
+    body {
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 12px;
+    }
+    body {
+        font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+}
 

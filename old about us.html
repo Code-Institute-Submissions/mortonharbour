@@ -20,40 +20,37 @@
 
 <body>
     <header>
-        <div class="container-fluid">
-
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a href="index.html" class="col-sm-4 logo"><span class="sr-only">Go to our home page</span></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="index.html" class="col-sm-4 logo"><span class="sr-only">Home</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html"><span class="sr-only">Go to our home page</span>Home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="about us.html"><span class="sr-only">Learn more about us</span>About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="therapy.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about us.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="therapy.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Therapy
                         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="psychotherapy.html"><span class="sr-only">Find out about psychotherapy we offer</span>Psychotherapy</a>
-                                <a class="dropdown-item" href="hypnotherapy.html"><span class="sr-only">Find out about hypnotherapy we offer</span>Hypnotherapy</a>
-                            </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="testimonials.html"><span class="sr-only">Find out what our clients say</span>Testimonials</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html"><span class="sr-only">Contact Us</span>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="psychotherapy.html">Psychotherapy</a>
+                            <a class="dropdown-item" href="hypnotherapy.html">Hypnotherapy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!--------------------------------------------------------------Main content-->
@@ -102,12 +99,33 @@
 
     <!--------------------------------------------------------------Therapist profiles-->
     <section>
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="assets/images/magda-square.png" class="card-img-top" alt="Photo of Magda Harbour">
-                    <span class="sr-only">Photo of Magda</span>
-                    <div class="card-body">
+        <div class="row ">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <p>
+                    <figure class="figure ">
+                        <img src="assets/images/magda-square.png" class="figure-img img-fluid rounded-circle" data-toggle="collapse" data-target="#collapseMagda" aria-expanded="false" aria-controls="collapseMagda" alt="Responsive image ">
+                        <figcaption class="figure-caption text-center">Magda Harbour</figcaption>
+                        <span class="sr-only ">Magda Harbour</span>
+                    </figure>
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <p>
+                    <figure class="figure ">
+                        <img src="assets/images/christian-square.png" class="figure-img img-fluid rounded-circle" data-toggle="collapse" data-target="#collapseChristian" aria-expanded="false" aria-controls="collapseChristian" alt="Responsive image ">
+                        <figcaption class="figure-caption text-center">Christian Morton</figcaption>
+                        <span class="sr-only ">Magda Harbour</span>
+                    </figure>
+                </p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 card-outer">
+                <div class="collapse" id="collapseMagda">
+                    <div class="card-magda card-body col-sm-12">
+                        <div class="div card-inner-padding">
                         <h3>Magda Harbour</h3>
                         <h5>Co-Director MAPHP MNRPC</h5>
                         <p>Magda is a very experienced hypnotherapist, psychotherapist and counsellor, having completed more than 14,000 therapy hours. She has successfully treated hundreds of clients since graduating from the eminent Essex Institute in
@@ -121,17 +139,17 @@
                         <p><em>“I take the well-being of every client extremely personally. My passion is to help clients make the positive changes they need, so they can feel
                         good and confident in themselves.</br>At Morton Harbour, Talking Therapies are accessible to everyone. My personal aspiration is to finally eliminate the taboo of talking about mental health, that leaves so many of us suffering in
                         silence.”</em></p>
-                        <p>E-Mail: <a href="mailto:# " class="card-links "><span class="sr-only">Email Magda</span>magda@mortonharbour.com</a></p>
-                        <p>Mobile Number: <a href="tel:# " class="card-links "><span class="sr-only">Call Magda</span>07968 114196</a></p>
-                        <p>Read client <a href="testimonials.html " class="card-links "><span class="sr-only">Read what our clients say</span>testimonials</a>.
+                        <p>E-Mail: <a href="mailto:# " class="card-links ">magda@mortonharbour.com</a></p>
+                        <p>Mobile Number: <a href="tel:# " class="card-links ">07968 114196</a></p>
+                        <p>Read client <a href="testimonials.html " class="card-links ">testimonials</a>.
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="assets/images/christian-square.png" class="card-img-top" alt="Photo of Christian">
-                    <span class="sr-only">Photo of Christian</span>
-                    <div class="card-body">
+            <div class="col-sm-6 card-outer">
+                <div class="collapse" id="collapseChristian">
+                    <div class="card-christian card-body col-sm-12">
+                        <div class="div card-inner-padding">
                         <h3>Christian Morton</h3>
                         <h5>Co-Director LAPHP ANRPC</h5>
                         <p>As a fully qualified Psychotherapist and Counsellor, Christian has an innate ability to ask the correct questions to produce very quick and effective results. <em>“Often, the relevant solutions are just waiting to
@@ -142,17 +160,18 @@
                         <p>Christian has been responsible for delivering high-end health care solutions for the last twenty years. As manager of a large health care provider, he understood the importance of using psychology to help his clients, relatives
                             and staff in creating a caring environment. An initial journalistic grounding gave him a sharp investigative mind which he finds extremely useful.</p>
                         <p>Christian enjoys spending time with his family, reading and most sports.</p>
-                        <p>E-Mail: <a href="mailto:# " class="card-links "><span class="sr-only">Email Christian</span>christian@mortonharbour.com</a></p>
-                        <p>Mobile Number: <a href="tel:# " class="card-links "><span class="sr-only">Call Christian</span>07808 523787</a></p>
-                        <p>Read client <a href="testimonials.html " class="card-links "><span class="sr-only">Read what our clients say</span>testimonials</a>.</p>
+                        <p>E-Mail: <a href="mailto:# " class="card-links ">christian@mortonharbour.com</a></p>
+                        <p>Mobile Number: <a href="tel:# " class="card-links ">07808 523787</a></p>
+                        <p>Read client <a href="testimonials.html " class="card-links ">testimonials</a>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--------------------------------------------------------------End of Therapist profiles-->
-
-    <!------------------------------------------------------------<Newsletter Sign Up-->
+    
+<!------------------------------------------------------------<Newsletter Sign Up-->
     <section>
         <div class="card testimonial-cards-rose newsletter-signup">
             <form action="#" method="post">
@@ -170,64 +189,64 @@
         </div>
     </section>
     <!------------------------------------------------------------<End of Newsletter Sign Up-->
-
-    <footer class="container-fluid">
-        <div class="row">
-            <a href="index.html" class="col-sm-4 footer-logo">
-                <span class="sr-only">Go to our home page</span>
+    
+    <footer class="container-fluid ">
+        <div class="row ">
+            <a href="index.html " class="col-sm-4 footer-logo ">
+                <span class="sr-only ">Home</span>
             </a>
-            <div class="div col-sm-4"></div>
-            <div class="col-sm-4">
-                <ul class="list-inline text-center social-media-icons">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/MortonHarbour/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook opens in a new window</span>
+            <div class="div col-sm-4 "></div>
+            <div class="col-sm-4 ">
+                <ul class="list-inline text-center social-media-icons ">
+                    <li class="list-inline-item ">
+                        <a target="_blank " href="https://www.facebook.com/MortonHarbour/ ">
+                            <i class="fa fa-facebook " aria-hidden="true "></i>
+                            <span class="sr-only ">Facebook</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/mortonharbour">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter opens in a new window</span>
+                    <li class="list-inline-item ">
+                        <a target="_blank " href="https://twitter.com/mortonharbour ">
+                            <i class="fa fa-twitter " aria-hidden="true "></i>
+                            <span class="sr-only ">Twitter</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/morton_harbour/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram opens in a new window</span>
+                    <li class="list-inline-item ">
+                        <a target="_blank " href="https://www.instagram.com/morton_harbour/ ">
+                            <i class="fa fa-instagram " aria-hidden="true "></i>
+                            <span class="sr-only ">Instagram</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.linkedin.com/in/magda-harbour-maphp-51b590b4/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn opens in a new window></span>
+                    <li class="list-inline-item ">
+                        <a target="_blank " href="https://www.linkedin.com/in/magda-harbour-maphp-51b590b4/ ">
+                            <i class="fa fa-linkedin " aria-hidden="true "></i>
+                            <span class="sr-only ">LinkedIn></span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="div col-sm-4 text-center footer-address">
+        <div class="row ">
+            <div class="div col-sm-4 text-center footer-address ">
                 <address>28 Crown Hill, Seaford East Sussex BN25 2XJ</br>
-                <a href="tel:+01323652332">01323 652332
-                    <span class="sr-only">contact number</span>
+                <a href="tel:+01323652332 ">01323 652332
+                    <span class="sr-only ">Contact Number</span>
                 </a></br>
-                <a href="mailto:#">contact@mortonharbour.com
-                    <span class="sr-only">email address</span>
+                <a href="mailto:contact@mortanharbour.com ">contact@mortonharbour.com
+                    <span class="sr-only ">Email Address</span>
                 </a>
                 </address>
             </div>
-            <a href="https://www.aphp.co.uk/" target="_blank" class="col-sm-4 aphp-logo">
-                <span class="sr-only">Visit the APHP website</span>
+            <a href="https://www.aphp.co.uk/ " target="_blank " class="col-sm-4 aphp-logo ">
+                <span class="sr-only ">APHP Link</span>
             </a>
-            <a href="https://www.nrpc.co.uk/" target="_blank" class="col-sm-4 nrpc-logo">
-                <span class="sr-only">Visit the NRPC website</span>
+            <a href="https://www.nrpc.co.uk/ " target="_blank " class="col-sm-4 nrpc-logo ">
+                <span class="sr-only ">NRPC Link</span>
             </a>
         </div>
-        <div class="row">
-            <div class="col-sm-4 text-center privacy-policy">
-                <div class="col-sm-8"></div>
-                <a href="privacy policy.html" target="_blank"><span class="sr-only">Please read our privacy policy</span>Privacy Policy</a>
+        <div class="row ">
+            <div class="col-sm-4 text-center privacy-policy ">
+                <div class="col-sm-8 "></div>
+                <a href="privacy policy.html " target="_blank "><span class="sr-only ">Pricay Policy</span>Privacy Policy</a>
             </div>
         </div>
 
