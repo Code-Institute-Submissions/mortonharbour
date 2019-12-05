@@ -119,10 +119,24 @@ body {
 
 #privacy-policy-wording {
     margin: 25px;
+    
 }
 
 .privacy-policy-links {
     color: #3f3f63;
+}
+
+.privacy-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1.5px solid #a7bdbf;
+    margin: 10px;
+}
+
+.privacy-data {
+    border: 1.5px solid #a7bdbf;
+    padding: 10px 5px;
+    text-align: center;
 }
 
 .website-links {
@@ -305,30 +319,13 @@ ul {
 
 footer {
     margin: 0;
-    background-color: #8fc5cb;
+    background-color: #9acbd0;
     min-height: 180px;
 }
 
 .social-media-icons li a i {
     color: #fafafa;
     padding: 15px;
-}
-
-
-.footer-address {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    color: #fafafa;
-    margin: auto 0;
-    padding: 0;
-}
-
-.footer-address address a {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    color: #fafafa;
-    margin: auto 0;
-    padding: 0;
 }
 
 .footer-logo {
@@ -373,23 +370,19 @@ footer {
     -o-transition: all .5s ease-in-out;
 }
 
-.privacy-policy a {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+.footer-end {
+    padding: 10px;
+    background-color: #8fc5cb;
+    color: #3f3f63;
+}
+
+.footer-end-item a {
+    text-decoration: none;
+    color: #3f3f63;
+}
+
+.footer-end-item a:hover {
     color: #fafafa;
-}
-
-.privacy-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: 1.5px solid #a7bdbf;
-    margin: 10px;
-}
-
-.privacy-data {
-    border: 1.5px solid #a7bdbf;
-    padding: 10px 5px;
-    text-align: center;
 }
 
 /*----------------------------------------------Hover*/
@@ -424,17 +417,7 @@ footer {
     color: #e7edeb;
 }
 
-.footer-address address a:hover {
-    text-decoration: none;
-    color: #3f3f63;
-}
-
 .social-media-icons li a i:hover {
-    text-decoration: none;
-    color: #3f3f63;
-}
-
-.privacy-policy a:hover {
     text-decoration: none;
     color: #3f3f63;
 }
