@@ -21,9 +21,9 @@
 <body>
     <header>
         <div class="container-fluid">
-
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a href="index.html" class="col-sm-4 logo"><span class="sr-only">Go to our home page</span></a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,6 +52,8 @@
                         </li>
                     </ul>
                 </div>
+                <span id="header-mobile"><a href="tel:#"><i class="fa fa-mobile" aria-hidden="true"></i>
+                <span class="sr-only">Call us</span>07968 114 196</a></span>
             </nav>
         </div>
     </header>
@@ -102,7 +104,7 @@
         </div>
         <div>
             <h4><b><em>What therapy we offer</em></b></h4>
-            <p>Our clinics provide <a href="psychotherapy.html" class="website-links"><span class="sr-only">Find out about psychotherapy we offer</span>Psychotherapy</a>, <a href="hypnotherapy.html" class="website-links"><span class="sr-only">Find out about hypnotherapy we offer</span>Hypnotherapy</a> and Counselling.</p>
+            <p>Our clinics provide <a href="psychotherapy.html" class="website-links"><span class="sr-only">Find out about psychotherapy we offer</span>Psychotherapy</a>, <a href="hypnotherapy.html" class="website-links"><span class="sr-only">Find out about hypnotherapy we offer</span>Hypnotherapy</a>                and Counselling.</p>
             <h4><b><em>Clinic locations</em></b></h4>
             <p>Central London (Marylebone), Worthing in West Sussex, Brighton and Seaford in East Sussex.</p>
             <h4><b><em>How we can help you</em></b></h4>
@@ -205,8 +207,20 @@
                     <input type="text" name="Surname" placeholder="Last Name" id="last-name" required/>
                     <input type="email" name="Email" placeholder="Email Address" id="email-address" required/></br>
                 </fieldset>
-                <input type="submit" value="Sign Up" id="submit-button" />
+                <input type="button" value="Sign Up" id="submit-button" data-toggle="modal" data-target="#newsletterModal" />
             </form>
+        </div>
+        <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Thank you for siging up to our newsletter.</br>
+                            We have sent you an email to confirm your subscription.</p>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!------------------------------------------------------------<End of Newsletter Sign Up-->

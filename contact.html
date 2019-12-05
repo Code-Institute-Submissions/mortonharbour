@@ -59,22 +59,32 @@
     <!------------------------------------------------------------<Contact form-->
 
     <section class="contact-us-form">
-        <div>
-            <h1>Contact</h1>
-            <hr>
-            <h2>To make an enquiry, please complete and submit this confidential online form.</h2>
-            <p>We can then advise you on appointment times and locations that are available. Please don’t forget our free 30 minute consultation.</p>
-            <form action="#" method="post">
-                <fieldset>
-                    <input type="text" name="Name" placeholder="Name" id="name-contact" required/></br>
-                    <input type="email" name="Email" placeholder="Email Address" id="email-address-contact" required/></br>
-                    <input type="tel" name="Number" placeholder="Phone Number" id="phone-number" required/></br>
-                    <textarea name="your-message" cols="40" rows="10" id="your-message" aria-invalid="false" placeholder="Your Message"></textarea>
-                </fieldset>
-                <input type="submit" value="Send" id="submit-button" />
-            </form>
-        </div>
-
+                <div>
+                    <h1>Contact</h1>
+                    <hr>
+                    <h2>To make an enquiry, please complete and submit this confidential online form.</h2>
+                    <p>We can then advise you on appointment times and locations that are available. Please don’t forget our free 30 minute consultation.</p>
+                    <form action="#" method="post">
+                        <fieldset>
+                            <input type="text" name="Name" placeholder="Name" id="name-contact" required/></br>
+                            <input type="email" name="Email" placeholder="Email Address" id="email-address-contact" required/></br>
+                            <input type="tel" name="Number" placeholder="Phone Number" id="phone-number" required/></br>
+                            <textarea name="your-message" cols="40" rows="10" id="your-message" aria-invalid="false" placeholder="Your Message"></textarea>
+                        </fieldset>
+                        <input type="button" value="Send" id="submit-button" data-toggle="modal" data-target="#contactModal" />
+                    </form>
+                </div>
+                <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>Thank you for your message, we will be in contact with you shortly.</p>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
 
         <!------------------------------------------------------------<End of contact form-->
 
@@ -144,8 +154,20 @@
                     <input type="text" name="Surname" placeholder="Last Name" id="last-name" required/>
                     <input type="email" name="Email" placeholder="Email Address" id="email-address" required/></br>
                 </fieldset>
-                <input type="submit" value="Sign Up" id="submit-button" />
+                <input type="button" value="Sign Up" id="submit-button" data-toggle="modal" data-target="#newsletterModal" />
             </form>
+        </div>
+        <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Thank you for siging up to our newsletter.</br>
+                            We have sent you an email to confirm your subscription.</p>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!------------------------------------------------------------<End of Newsletter Sign Up-->

@@ -140,8 +140,20 @@
                     <input type="text" name="Surname" placeholder="Last Name" id="last-name" required/>
                     <input type="email" name="Email" placeholder="Email Address" id="email-address" required/></br>
                 </fieldset>
-                <input type="submit" value="Sign Up" id="submit-button" />
+                <input type="button" value="Sign Up" id="submit-button" data-toggle="modal" data-target="#newsletterModal" />
             </form>
+        </div>
+        <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Thank you for siging up to our newsletter.</br>
+                            We have sent you an email to confirm your subscription.</p>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!------------------------------------------------------------<End of Newsletter Sign Up-->
