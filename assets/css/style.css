@@ -4,9 +4,6 @@
 
 /*----------------------------------------------Colors*/
 
-/*off-white color: #fafafa
-olive color: #63757A
-light teal color: #a7bdbf*/
 
 .navbar-light .nav-item.active .nav-link {
     color: #3f3f63;
@@ -17,7 +14,7 @@ light teal color: #a7bdbf*/
 }
 
 .dropdown-menu {
-    background-color: #fafafa;
+    background-color: #fcfcfc;
 }
 
 .dropdown-item {
@@ -241,6 +238,29 @@ ul {
   order: 13;
 }
 
+.blog-card {
+    border: solid 0.5px #3f3f63;
+    position: relative;
+}
+
+#blog-img {
+    max-width: 75%;
+    padding-bottom: 15px;
+    background-size: contain;
+}
+
+.figure-caption {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#blog-headings {
+    color: #525273;
+    font-weight: 500;
+    text-shadow: 1px 0.75px 2px #3f3f63;
+}
+
 /*--------------------------------------------------------Form*/
 
 .newsletter-signup {
@@ -271,7 +291,7 @@ ul {
     margin: 5px;
     background-color: #3f3f63;
     border-color: #6c757d;
-    color: #fafafa;
+    color: #fcfcfc;
 }
 
 .modal-body {
@@ -324,7 +344,7 @@ footer {
 }
 
 .social-media-icons li a i {
-    color: #fafafa;
+    color: #fcfcfc;
     padding: 15px;
 }
 
@@ -382,14 +402,14 @@ footer {
 }
 
 .footer-end-item a:hover {
-    color: #fafafa;
+    color: #fcfcfc;
 }
 
 /*----------------------------------------------Hover*/
 
 #submit-button:hover {
     background-color: #e7edeb;
-    border-color: #fafafa;
+    border-color: #fcfcfc;
     color: #3f3f63;
     font-weight: 600;
     transition: all 1s ease-in-out;
