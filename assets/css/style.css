@@ -261,6 +261,24 @@ ul {
     text-shadow: 1px 0.75px 2px #3f3f63;
 }
 
+.blog-sidebar {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.ordered-list {
+    padding: 5px;
+}
+
+.aside-list {
+    padding-left: 0px;
+}
+
+.aside-links a {
+    color: #3f3f63;
+}
+
 /*--------------------------------------------------------Form*/
 
 .newsletter-signup {
@@ -486,6 +504,10 @@ footer {
     color: #3f3f63;
 }
 
+.aside-links a:hover {
+    text-decoration: none;
+    color: #8fc5cb;
+}
 
 /*----------------------------------------------Media Queries*/
 
@@ -500,7 +522,7 @@ footer {
         left: 50%;
         transform: translatex(-50%);
     }
-    body {
+ website   body {
         text-align: left;
     }
 }
