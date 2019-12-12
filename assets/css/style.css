@@ -2,24 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
-/*----------------------------------------------Colors*/
-
-.navbar-light .nav-item.active .nav-link {
-    color: #3f3f63;
-}
-
-#navbarDropdown {
-    color: #3f3f63;
-}
-
-.dropdown-menu {
-    background-color: #fcfcfc;
-}
-
-.dropdown-item {
-    color: #3f3f63;
-}
-
 /*----------------------------------------------Header*/
 
 header {
@@ -54,18 +36,35 @@ header {
     font-weight: 300;
 }
 
+.navbar-light .nav-item.active .nav-link {
+    color: #3f3f63;
+}
+
+#navbarDropdown {
+    color: #3f3f63;
+}
+
+.navbar-nav {
+        text-align: center;
+    }
+
+.navbar-toggler {
+        position: relative;
+        left: 50%;
+        border: none;
+        transform: translatex(-50%);
+    }
+
 .dropdown-menu {
     border: none;
     background-color: transparent;
+    background-color: #fcfcfc;
 }
 
 .dropdown-item {
     font-size: 1.15rem;
     font-weight: 300;
-}
-
-.navbar-toggler {
-    border: none;
+    color: #3f3f63;
 }
 
 #header-mobile a {
@@ -116,10 +115,8 @@ body {
     padding: 25px;
 }
 
-
 #privacy-policy-wording {
     margin: 25px;
-
 }
 
 .privacy-policy-links {
@@ -528,23 +525,19 @@ footer {
 
 /*----------------------------------------------Media Queries*/
 
-/* Small devices (under 576px */
 
-@media (min-width: 0px) {
-    .navbar-nav {
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+    }
+    body {
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+     .dropdown-item {
         text-align: center;
     }
-    .navbar-toggler {
-        position: relative;
-        left: 50%;
-        transform: translatex(-50%);
-    }
-    website body {
-        text-align: left;
-    }
 }
-
-/* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
     .navbar-toggler {
@@ -554,8 +547,6 @@ footer {
         text-align: left;
     }
 }
-
-/* Medium devices (tablets, 768px and up) */
 
 @media (min-width:768px) {
     .navbar-toggler {
@@ -574,15 +565,6 @@ footer {
     }
 }
 
-@media screen and (min-width: 320px) {
-    html {
-        font-size: calc(8px + 6 * ((100vw - 320px) / 680));
-    }
-    body {
-        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    }
-}
-
 @media screen and (min-width: 1000px) {
     html {
         font-size: 12px;
@@ -592,5 +574,8 @@ footer {
     }
     #header-mobile a {
         display: block;
+    }
+    .dropdown-item {
+        text-align: left;
     }
 }
