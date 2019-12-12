@@ -1,4 +1,4 @@
-/*----------------------------------------------Fonts*/
+/*----------------------------------------------Fonts from Google Fonts*/
 
 @import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
@@ -236,12 +236,6 @@ ul {
     padding-bottom: 25px;
 }
 
-.order-last {
-    -webkit-box-ordinal-group: 14;
-    -ms-flex-order: 13;
-    order: 13;
-}
-
 .blog-card {
     border: solid 0.5px #3f3f63;
     position: relative;
@@ -427,7 +421,7 @@ footer {
     color: #fcfcfc;
 }
 
-/*----------------------------------------------Hover*/
+/*----------------------------------------------Hover (.hvr-shadow from Hover.CSS Ian Lunn)*/
 
 #submit-button:hover {
     background-color: #e7edeb;
