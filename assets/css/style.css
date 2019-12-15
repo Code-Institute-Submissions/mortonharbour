@@ -552,6 +552,7 @@ a:hover {
 @media (min-width: 576px) {
     .navbar-toggler {
         margin-top: 15px;
+        position: static;
     }
     body {
         text-align: left;
@@ -559,9 +560,6 @@ a:hover {
 }
 
 @media (min-width:768px) {
-    .navbar-toggler {
-        position: static;
-    }
     body {
         text-align: justify;
     }
@@ -575,7 +573,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     html {
         font-size: 12px;
     }

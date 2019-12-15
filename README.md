@@ -46,6 +46,10 @@ I used the following technologies for the website.
     - Google Fonts is a library of free fonts that can be used.  The fonts used in the website is linked from Google Fonts.
 - Font Awesome
     - Font Awesome is a library of icons that can be used, there are both free to use and paid for icons.  The icons used on the website are all from the Font Awesome free to use catalogue.
+- Git 
+    - Git is used for version control and it was used to commit files to git regularly so that changes could be tracked and reverted to if required.
+- GitHub
+    - GitHub is a repository hosting service that enables us to upload our git repository and host it online.
 
 ## Testing
 
@@ -85,11 +89,14 @@ I used HTML and CSS validators to ensure that there were no issues overall with 
 
 ## Deployment
 
-The website is deployed to GitHub and is an exact copy of the version on Cloud 9 ide.  I have deployed as a master branch and the website address is: 
+The website is deployed to GitHub and is an exact copy of the version on Cloud 9 ide.  I created a repository on GitHub called mortonharbour and then pushed the files to the repository from Cloud 9 ide.
+
+In GitHub I then opened the settings menu and under GitHub pages selected the source as Master Branch to host the webiste on GitHub.
+
+I have deployed as a master branch and the website address is below.  In order to view the website, you can copy and paste the below link into your browser's address bar.  This is a responsive website and will work on mobiles, tablets, laptops and larger devices.
 
 https://salomelamprecht.github.io/mortonharbour 
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
 
