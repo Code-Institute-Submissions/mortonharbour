@@ -89,9 +89,13 @@ I used HTML and CSS validators to ensure that there were no issues overall with 
 
 ## Deployment
 
-The website is deployed to GitHub and is an exact copy of the version on Cloud 9 ide.  I created a repository on GitHub called mortonharbour and then pushed the files to the repository from Cloud 9 ide.
+The website is deployed to GitHub and is an exact copy of the version on Cloud 9 ide.  
 
-In GitHub I then opened the settings menu and under GitHub pages selected the source as Master Branch to host the webiste on GitHub.
+In GitHub I opened my repositories and selected new repository called mortonharbour and added a description for the repository.
+
+In Cloud 9 ide I then pushed my existing repository from Cloud 9 ide to GitHub by adding the origin file and then pushing it to GitHub.
+
+In GitHub I opened the mortonharbour repository and in the settings menu and under GitHub pages selected the source as Master Branch to host the webiste on GitHub.
 
 I have deployed as a master branch and the website address is below.  In order to view the website, you can copy and paste the below link into your browser's address bar.  This is a responsive website and will work on mobiles, tablets, laptops and larger devices.
 
